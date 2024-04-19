@@ -42,5 +42,11 @@ for Z_PID in "$ZYGOTE_PID" "$ZYGOTE64_PID"; do
     fi
 done
 
+for PID in $APP_PIDS; do
+    nsenter --mount=/proc/$PID/ns/mnt -- \
+        /bin/mount --bind /system/etc/security/cacerts /apex/com.android.conscrypt/cacerts &
+done
+wait
+
 umount /system/etc/security/cacerts
 rmdir /system/etc/security/cacerts
