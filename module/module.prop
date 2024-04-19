@@ -1,0 +1,6 @@
+id=moveusercerts
+name=Move User Certs
+version=v1.0
+versionCode=1
+author=DimuHvH
+description=Moves user certificates store to the system certificate store.
