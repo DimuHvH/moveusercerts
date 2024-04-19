@@ -15,7 +15,7 @@ This was solely created for Android 14, not higher not lower. If you need this f
 
 ## Usage
 
-1. Download the `.zip` file from the [latest release](https://github.com/DimuHvH/moveusercerts/releases)].
+1. Download the `.zip` file from the [latest release](https://github.com/DimuHvH/moveusercerts/releases).
 2. Go to *Magisk -> Modules -> Install from storage* and select the downloaded `.zip` file.
 3. Reboot.
 
